@@ -1,0 +1,23 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>MSI Application Uninstaller</name>
+    <category>applications</category>
+    <description>Uninstalls applications using PowerShell. Just put in the name of the application you want to uninstall. Wildcards, i.e., "*Google*" are supported (do NOT use quotes in AEM).
+
+NOT ALL APPLICATIONS ARE SUPPORTED, SEE MSI Application Uninstaller Lister to return a list of supported applications on a machine.</description>
+    <uid>f4b8a1cd-9175-419c-b864-d42571147e57</uid>
+    <hash />
+    <version>14</version>
+    <timeout>3600</timeout>
+    <securityLevel>1</securityLevel>
+    <installType>powershell</installType>
+    <uninstallType />
+  </general>
+  <variable idx='0'>
+    <name>name</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Type in the name of the application to uninstall, wildcards, e.g., *Google* are supported</description>
+    <defaultVal />
+  </variable>
+</component>

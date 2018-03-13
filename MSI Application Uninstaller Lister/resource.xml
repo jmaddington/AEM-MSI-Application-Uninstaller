@@ -1,0 +1,13 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>MSI Application Uninstaller Lister</name>
+    <category>scripts</category>
+    <description>Sister script to MSI Application Uninstaller, it simply lists the applications this other script supports (or ought to support).</description>
+    <uid>f86d8af7-0a0f-40f4-a5be-1f3e77367c13</uid>
+    <hash />
+    <version>3</version>
+    <timeout>3600</timeout>
+    <securityLevel>1</securityLevel>
+    <installType>powershell</installType>
+  </general>
+</component>
